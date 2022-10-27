@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;   
+}
+
+.box{
+     width: 100%;
+     min-height: 10px;
+     padding: 20px;
+}
+.logo {
+     height: 100%;
+     float:left;
+     padding: 5px;
+}
+.header {
+     text-align: center;
+     background-color: #f1f1f1;
+     padding: 20px;
+     font-size: 15;    
+}
+nav {
+     background-color: rgb(177, 3, 75);
+     padding: 10px;
+}
+nav ul {
+     list-style-type: none;
+     text-align: center;
+}
+
+nav ul li {
+     display: inline-block;
+     text-align: center;
+     margin: 15px;
+}
+
+a {
+     color: #ffffff;
+     text-decoration: none;
+
+}
+
+a:hover {
+     color: #ffffff;
+     border-bottom: 1px solid #ffffff;
+}
+
+button {
+     border: none;
+     color: rgb(244, 249, 244);
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     background-color: green;
+}
+.button:hover {
+     border: 2px solid hwb(0 0% 100%);
+     background-color: rgb(177, 3, 75);
+}
+
+body {
+     width: 960px;
+     margin: auto;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     background-color: white;
+}
+
+h1 {
+     border-top: 5px solid green;
+     color: rgb(177, 3, 75);
+     text-transform: uppercase;
+     font-size: 30px;
+     align-self: auto;
+}
+h2 {
+     color: green;
+     text-transform: uppercase;
+     font-size: 60px;
+     align-self: auto;
+
+
+}
+h4, .subtitle {
+     color: green;
+     text-transform: uppercase;
+     font-size: 25px;
+     text-align: left;
+}
+
+div {
+     column-rule: 5px green;
+}
+
+/* Two equal columns that float*/
+.column {
+     float: left;
+     width: 50%;
+     padding: 10px;
+     
+}
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+
+/* hero section */
+
+
+/* The hero image */
+.hero-image {
+     
+     background-image: url(img/wormwithfork.png);
+     height: 400px;
+     /* Position and center the image to scale nicely on all screens */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+   
+   .hero-text {
+     text-align: left;
+     position: absolute;
+     top: 20%;
+     left: 5%;
+     width: 300px;
+     color: white;
+ }
+
+ .wrap-element {
+     position: relative;
+     overflow: hidden;
+     padding-top: 56.25%;
+
+ }
+
+ .wrapped-iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border:0;
+ }
+ section {
+     display: inline-block;
+
+ }
+ 
+ .social-links a {
+     color: #ffffff
+
+ }
+footer {
+     background-color: rgb(177, 3, 75);
+     text-align: center;
+}
+
+/*Full-width input fields */
+input [type=text], input[type=password] {
+     width: 100%;
+     padding: 15px;
+     margin: 5px 0 22 px 0;
+     display:blockin-line block;
+     border: none;
+     background: #cacdca;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(214, 242, 214);
+  outline: #000000
+}
+
+hr {
+  border: 1px green;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #89043a;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
+     
+     
